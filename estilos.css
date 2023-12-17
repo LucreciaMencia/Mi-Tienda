@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    width: 1440px;
+}
+
+.flex-container{
+    border: 1px solid red;
+    height: 3006px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 121px;
+    padding: 14px 0px 14px 0px;
+}
+
+.carousel{
+    height: 427px;
+    background-color: #fff3b0;
+}
+
+
+.tendencias{
+    margin-top: 80px;
+    height: 566px;
+    background-color: #DC1E0F;
+}
+
+.populares{
+    background-color: #caf0f8;
+    margin: 80px 70px 80px 70px;
+    height: 455px;
+    width: 1300px;
+
+}
+
+.vendido{
+    background-color: #eaf4f4;
+    height: 566px;
+}
+
+.info{
+    background-color: #8d99ae;
+    margin-top: 80px;
+    height: 261px;
+}
+
+.footer{
+    background-color: #212121;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fila{
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.f1{
+    justify-content: space-between;
+    height: 235px;
+}
+
+.f2{
+    height: 55px;
+}
+
+.cajitas{
+    border: 1px solid white;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+button{
+    text-decoration: none;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    width: 100%;
+}
