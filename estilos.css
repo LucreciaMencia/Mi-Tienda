@@ -113,6 +113,13 @@ button {
     border: 1px solid white;
 }
 
+.grupo2-f2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
 .g2 {
     border: 1px solid white;
     display: flex;
@@ -121,11 +128,17 @@ button {
     flex-grow: 1;
 }
 
+
 @media (min-width: 361px){
     .menu-icon{
         display: none;
     }
+
+    .g2-mobile{
+        display: none;
+    }
 }
+
 
 .header-fila {
     padding: 0px 70px 0px 70px;
@@ -248,5 +261,50 @@ button {
     
     .footer {
         height: 681px;
+    }
+
+    .f1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .f2{
+        height: 123.79px;
+        display: flex;
+        flex-direction: column; 
+        margin: 40px 42.5px 0 42.5px;
+        border: 1px solid white;
+    }
+
+    .grupof2{
+        border: none;
+    }
+
+    .caja-foo-f2 {
+        border: 1px solid white;
+    }
+
+    .g2{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .first{
+        order: 2;
+    }
+
+    .third{
+        order: 3;
+    }
+
+    .vtex{
+        order: 4;
+    }
+
+}
+
+@media (max-width: 360px){
+    .g2-desktop{
+        display: none;
     }
 }
