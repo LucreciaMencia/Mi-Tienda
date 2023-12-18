@@ -60,7 +60,6 @@ body {
 }
 
 .populares {
-    border: 1px solid burlywood;
     margin: 80px 70px 80px 70px;
     height: 455px;
     width: calc(100% - 140px);
@@ -73,9 +72,28 @@ body {
 }
 
 .grid-layout{
-    border: 1px solid #977343;
+    display: grid;
+    grid-template-areas:    'zapatillas futbol futbol pelotas'
+                            'zapatillas calzas calzas pelotas';
+    gap: 12px;
     width: 100%;
     height: 399px;
+}
+
+.zapatillas{
+    grid-area: zapatillas;
+}
+
+.futbol{
+    grid-area: futbol;
+}
+
+.calzas{
+    grid-area: calzas;
+}
+
+.pelotas{
+    grid-area: pelotas;
 }
 
 .vendido {
