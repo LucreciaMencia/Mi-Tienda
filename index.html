@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="./estilos.css">
     <title>Mi Tienda</title>
 </head>
@@ -40,9 +41,29 @@
             </div>
         </div>
 
-        <div class="caja carousel">carousel</div>
+        <div class="caja carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+            <div class="carousel-cell">
+                <img src="./public/Frame77.png" alt="Bici nueva">
+            </div>
+            <div class="carousel-cell">
+                <img src="./public/Frame77.png" alt="Bici nueva">
+            </div>
+            <div class="carousel-cell">
+                <img src="./public/Frame77.png" alt="Bici nueva">
+            </div>
+            <div class="carousel-cell">
+                <img src="./public/Frame77.png" alt="Bici nueva">
+            </div>
+        </div>
+
+
         <div class="caja tendencias">tendencias</div>
-        <div class="caja populares">mas populares</div>
+
+        
+        <div class="caja populares">
+            <h1 class="h1-populares">VISITÁ LAS CATEGORÍAS MÁS POPULARES</h1>
+            <div class="grid-layout"></div>
+        </div>
         <div class="caja vendido">mas vendido</div>
         <div class="caja info">info</div>
 
@@ -81,7 +102,7 @@
                 <div class="grupof2 g2 g2-desktop">
                     <div class="caja-foo-f2 vtex">vtex</div>
                     <div class="grupo2-f2">
-                        <div class="caja-foo-f2 copy-right">copy right</div>                        
+                        <div class="caja-foo-f2 copy-right">copy right</div>
                         <div class="caja-foo-f2 d-fiscal">data fiscal</div>
                     </div>
                 </div>
@@ -90,6 +111,7 @@
 
 
     </section>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 
 </html>
