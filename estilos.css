@@ -128,9 +128,49 @@ button {
 
 .hf1 {
     height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hf2 {
     margin-top: 34px;
     height: 19px;
+}
+
+.mi-tienda{
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.search-box{
+    margin: 0px 300px 0px 350px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.caja-header{
+    border: 1px solid blue;
+}
+
+.icon-group{
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mi-cuenta{
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.usuario-icon{
+    margin-right: 10px;
 }
