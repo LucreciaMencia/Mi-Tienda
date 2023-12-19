@@ -86,7 +86,6 @@ body {
     font-style: italic;
     font-weight: 800;
     line-height: 32px;
-    /* 100% */
     text-transform: uppercase;
 }
 
@@ -118,9 +117,30 @@ body {
     margin-bottom: 22px;
 }
 
+.populares > .titulo {
+    color: #000000;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.contenedor-vidriera2>.titulo {
+    color: #000000;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
 .grid-layout {
     display: grid;
-    grid-template-areas: 'zapatillas futbol futbol pelotas'
+    grid-template-areas:
+        'zapatillas futbol futbol pelotas'
         'zapatillas calzas calzas pelotas';
     gap: 12px;
     width: 100%;
@@ -202,7 +222,6 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
-    /* 122.222% */
     text-transform: uppercase;
 }
 
@@ -211,7 +230,6 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    /* 125% */
 }
 
 .footer {
@@ -404,7 +422,29 @@ button {
     }
 
     .carousel {
+        width: 360px;
         height: 140px;
+        flex-shrink: 0;
+    }
+
+    .carousel img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* position dots in carousel */
+    .flickity-page-dots {
+        bottom: 0px;
+    }
+
+    /* white circles */
+    .flickity-page-dots .dot {
+        width: 10px;
+        height: 10px;
+        opacity: 1;
+        background: transparent;
+        border: 1.5px solid white;
+        box-sizing: border-box;
     }
 
     .tendencias {
