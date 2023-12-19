@@ -490,13 +490,31 @@ button {
 
     }
 
+    .grid-layout {
+        display: block;
+    }
+
+    .caja-grid {
+        width: 360px;
+        height: 208px;
+    }
+
+
     .vendido {
         margin-top: 40px;
         height: 380px;
     }
 
     .info {
+        display: block;
+        padding: 0px 20px;
         height: 261px;
+    }
+
+    .cajita-info {
+        width: 320px;
+        height: 248px;
+        padding: 40px 0;
     }
 
     .footer {
