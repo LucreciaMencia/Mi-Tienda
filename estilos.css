@@ -75,7 +75,7 @@ body {
     justify-content: space-between;
 }
 
-.contenedor-vidriera {
+.contenedor-pos {
     margin-top: 30px;
 }
 
@@ -117,7 +117,7 @@ body {
     margin-bottom: 22px;
 }
 
-.populares > .titulo {
+.populares>.titulo {
     color: #000000;
     font-family: Roboto;
     font-size: 32px;
@@ -125,6 +125,10 @@ body {
     font-weight: 800;
     line-height: 32px;
     text-transform: uppercase;
+}
+
+.contenedor-vidriera2 {
+    margin-top: 30px;
 }
 
 .contenedor-vidriera2>.titulo {
@@ -447,9 +451,36 @@ button {
         box-sizing: border-box;
     }
 
+    .posicionamiento {
+        margin-left: 16px;
+        margin-top: 40px;
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
     .tendencias {
         margin-top: 40px;
         height: 380px;
+    }
+
+    .vidriera-card {
+        width: 160px;
+        height: 233px;
+        border-radius: 15px;
+        margin-right: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .articulo {
+        width: 99.35px;
+        height: 99.547px;
+        flex-shrink: 0;
     }
 
     .populares {
