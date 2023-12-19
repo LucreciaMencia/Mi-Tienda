@@ -5,11 +5,14 @@ html {
 body {
     margin: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .flex-container {
     height: 3006px;
     width: 100%;
+    max-width: 1440px;
     display: flex;
     flex-direction: column;
 }
@@ -21,7 +24,6 @@ body {
 
 .carousel {
     height: 427px;
-    position: relative;
 }
 
 .carousel img {
@@ -50,8 +52,13 @@ body {
 }
 
 .flickity-button{
-    display: none;
+    background-color: white;
+    height: 36px;
+    width: 36px;
+    box-shadow: 0px 4px 20px 0px #80808040;
 }
+
+
 
 .tendencias {
     margin-top: 80px;
@@ -59,7 +66,7 @@ body {
     background-color: #DC1E0F;
 }
 
-.populares {
+.posicionamiento {
     margin: 80px 70px 80px 70px;
     height: 455px;
     width: calc(100% - 140px);
@@ -67,7 +74,25 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-.h1-populares{
+
+.contenedor-vidriera{
+    margin-top: 30px;
+}
+
+.container-vidriera {
+    width: 100%;
+}
+
+.vidriera-card {
+    height: 402px;
+    width: 246px;
+    background-color: white;
+    border-radius: 0.3em;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.h1{
     height: 32px;
 }
 
@@ -80,31 +105,60 @@ body {
     height: 399px;
 }
 
+.caja-grid{
+    color: white;
+}
+
 .zapatillas{
     grid-area: zapatillas;
+    background-image: url('./public/zapatilla.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .futbol{
     grid-area: futbol;
+    background-image: url('./public/futbol.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .calzas{
     grid-area: calzas;
+    background-image: url('./public/calza.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .pelotas{
     grid-area: pelotas;
+    background-image: url('./public/pelota.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .vendido {
-    background-color: #eaf4f4;
     height: 566px;
+}
+
+.vw-sombra{
+    box-shadow: 0px 2px 6px 0px #CCCACA;
 }
 
 .info {
     background-color: #8d99ae;
+    box-sizing: border-box;
     margin-top: 80px;
     height: 261px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cajita-info {
+    height: 168px;
+    width: 261.61px;
+    border: 1px solid white;
 }
 
 .footer {
