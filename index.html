@@ -14,56 +14,45 @@
 
         <div class="caja header">
             <div class="header-fila hf1">
-                <div class="caja-header menu-icon">icon</div>
-                <div class="caja-header mi-tienda">
-                    <span class="titulo">Mi Tienda</span>
+                <img class="caja-header menu-icon" src="./public/menu.svg" alt="menú hamburguesa">
+                <span class="caja-header mi-tienda titulo">Mi Tienda</span>
+                <div class="caja-header search-box">
+                    <img src="./public/lupa.svg" alt="Lupa">
                 </div>
-                <div class="caja-header search-box"></div>
                 <div class="icon-group">
                     <div class="caja-header mi-cuenta">
-                        <div class="usuario-icon">icon 1</div>
-                        <div class="mi-cuenta-texto">Mi cuenta</div>
+                        <img class="usuario-icon" src="./public/usuario.svg" alt="Ícono de usuario">
+                        <span class="mi-cuenta-texto">Mi cuenta</span>
                     </div>
-                    <div class="caja-header carrito">
-                        <div>icon 2</div>
-                    </div>
+                    <img class="caja-header carrito" src="./public/carrito.svg" alt="Carrito de compras">
                 </div>
             </div>
 
             <div class="header-fila hf2">
-                <div class="caja-header ch2 muebles">Mueble</div>
-                <div class="caja-header ch2 calzado">Calzado</div>
-                <div class="caja-header ch2 colchones">Colchones</div>
-                <div class="caja-header ch2 herramientas">Herramientas</div>
+                <span class="caja-header ch2 muebles">Mueble</span>
+                <span class="caja-header ch2 calzado">Calzado</span>
+                <span class="caja-header ch2 colchones">Colchones</span>
+                <span class="caja-header ch2 herramientas">Herramientas</span>
+
                 <div class="icon-group">
-                    <div class="caja-header ofertas">Ofertas</div>
-                    <div class="caja-header icon">icon</div>
+                    <span class="caja-header ofertas">Ofertas</span>
+                    <img class="caja-header icon" src="./public/fire.svg" alt="">
                 </div>
             </div>
         </div>
 
-        <div class="caja carousel"
-            data-flickity='{ "cellAlign": "left", "contain": true, "prevNextButtons": false, "autoPlay": 2500 }'>
-            <div>
-                <img src="./public/Frame77.png" alt="Bici nueva">
-            </div>
-            <div>
-                <img src="./public/Frame77.png" alt="Bici nueva">
-            </div>
-            <div>
-                <img src="./public/Frame77.png" alt="Bici nueva">
-            </div>
-            <div>
-                <img src="./public/Frame77.png" alt="Bici nueva">
-            </div>
+        <div class="caja carousel" data-flickity='{ "cellAlign": "left", "contain": true, "prevNextButtons": false }'>
+            <img src="./public/Frame77.png" alt="Bici nueva">
+            <img src="./public/Frame77.png" alt="Bici nueva">
+            <img src="./public/Frame77.png" alt="Bici nueva">
+            <img src="./public/Frame77.png" alt="Bici nueva">
         </div>
 
 
         <div class="caja tendencias">
             <div class="posicionamiento contenedor-vidriera">
                 <span class="titulo">TENDENCIAS</span>
-                <div class="container-vidriera"
-                    data-flickity='{ "cellAlign": "left", "contain": true, "pageDots": false }'>
+                <div class="container-vidriera" data-flickity='{ "cellAlign": "left", "contain": true }'>
                     <div class="vidriera-card vw-sombra">
                         <img class="articulo" src="./public/articulo.svg" alt="Articulo">
                         <div>Samsung Smart Tv 75" UHD</div>
@@ -125,9 +114,8 @@
                 <span class="titulo">LAS MÁS VENDIDAS</span>
 
 
-                <div class="container-vidriera"
-                    data-flickity='{ "cellAlign": "left", "contain": true, "pageDots": false, "adaptiveHeight": true }'>
-                    
+                <div class="container-vidriera" data-flickity='{ "cellAlign": "left", "contain": true }'>
+
                     <div class="vidriera-card vw-sombra">
                         <img class="articulo" src="./public/articulo.svg" alt="Articulo">
                         <div>Samsung Smart Tv 75" UHD</div>

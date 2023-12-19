@@ -23,6 +23,66 @@ body {
     padding: 14px 0px 14px 0px;
 }
 
+.header-fila {
+    padding: 0px 70px 0px 70px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.hf1 {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hf2 {
+    margin-top: 34px;
+    height: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mi-tienda {
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    min-width: 328px;
+    margin: 0px 300px 0px 350px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.icon-group {
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mi-cuenta {
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.usuario-icon {
+    margin-right: 10px;
+}
+
+.ch2 {
+    margin-right: 20px;
+}
+
 .carousel {
     height: 427px;
 }
@@ -32,9 +92,9 @@ body {
     display: block;
 }
 
-/* position dots in carousel */
-.flickity-page-dots {
+.carousel .flickity-page-dots {
     bottom: 0px;
+    margin-bottom: 5px;
 }
 
 /* white circles */
@@ -329,72 +389,6 @@ button {
     }
 }
 
-
-.header-fila {
-    padding: 0px 70px 0px 70px;
-    background-color: #d8d8d830;
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.hf1 {
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.hf2 {
-    margin-top: 34px;
-    height: 19px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.mi-tienda {
-    height: 38px;
-    display: flex;
-    align-items: center;
-}
-
-.search-box {
-    min-width: 328px;
-    margin: 0px 300px 0px 350px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    flex-grow: 1;
-}
-
-.caja-header {
-    border: 1px solid blue;
-}
-
-.icon-group {
-    height: 22px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.mi-cuenta {
-    margin-right: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.usuario-icon {
-    margin-right: 10px;
-}
-
-.ch2 {
-    margin-right: 20px;
-}
-
 @media (max-width: 360px) {
     .flex-container {
         height: 2445px;
@@ -431,24 +425,12 @@ button {
         flex-shrink: 0;
     }
 
-    .carousel img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    /* position dots in carousel */
-    .flickity-page-dots {
-        bottom: 0px;
-    }
-
     /* white circles */
     .flickity-page-dots .dot {
         width: 10px;
         height: 10px;
         opacity: 1;
-        background: transparent;
         border: 1.5px solid white;
-        box-sizing: border-box;
     }
 
     .posicionamiento {
@@ -464,6 +446,10 @@ button {
     .tendencias {
         margin-top: 40px;
         height: 380px;
+    }
+
+    .container-vidriera > .flickity-button{
+        display: none;
     }
 
     .vidriera-card {
