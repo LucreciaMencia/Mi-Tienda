@@ -129,7 +129,7 @@ nav a {
     align-items: center;
 }
 
-.hf2 span {
+.hf2>span {
     color: #5E5E5E;
     text-align: center;
     font-family: Roboto;
@@ -153,12 +153,24 @@ nav a {
 }
 
 .search-box {
-    min-width: 328px;
-    margin: 0px 300px 0px 350px;
+    min-width: 200px;
+    max-width: 515px;
     height: 40px;
+    border-radius: 48px;
+    border: 1px solid #BABABA;
+    background: #FFF;
+
     display: flex;
+    justify-content: end;
     align-items: center;
     flex-grow: 1;
+}
+
+.search-box > input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    margin-left: 15px;
 }
 
 .mi-cuenta-texto {
@@ -557,6 +569,7 @@ button {
 }
 
 @media (max-width: 360px) {
+
     .flex-container {
         height: 2445px;
     }
@@ -566,11 +579,13 @@ button {
     }
 
     .header-fila {
-        padding: 0;
-        margin: 0px 16px 0px 16px;
+        padding: 0 16px;
     }
 
-
+    .mi-tienda {
+        padding-left: 20px;
+    }
+    
     .hf2 {
         display: none;
     }
@@ -580,8 +595,12 @@ button {
     }
 
     .search-box {
-        border: none;
-        background-color: #8d99ae41;
+        width: 328px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 48px;
+        border: 1px solid #BABABA;
+        background: #FFF;
         margin: 12px 0 0 0;
         order: 4;
     }
