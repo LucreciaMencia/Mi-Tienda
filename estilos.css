@@ -348,28 +348,28 @@ nav a {
 
 .zapatillas {
     grid-area: zapatillas;
-    background-image: url('/static/zapatilla.png');
+    background-image: url('./public/zapatilla.png');
     background-size: cover;
     background-position: center;
 }
 
 .futbol {
     grid-area: futbol;
-    background-image: url('/static/futbol.png');
+    background-image: url('./public/futbol.png');
     background-size: cover;
     background-position: center;
 }
 
 .calzas {
     grid-area: calzas;
-    background-image: url('/static/calza.png');
+    background-image: url('./public/calza.png');
     background-size: cover;
     background-position: center;
 }
 
 .pelotas {
     grid-area: pelotas;
-    background-image: url('/static/pelota.png');
+    background-image: url('./public/pelota.png');
     background-size: cover;
     background-position: center;
 }
