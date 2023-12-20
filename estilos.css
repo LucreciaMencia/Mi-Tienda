@@ -11,6 +11,51 @@ body {
     justify-content: center;
 }
 
+#sidebar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 816px;
+    width: 100%;
+    z-index: 1000;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar-title {
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    background-color: white;
+}
+
+.nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav li {
+    height: 50px;
+}
+
+.nav a {
+    height: 100%;
+    padding: 12px auto 12px 27px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #5E5E5E;
+}
+
+
 .flex-container {
     width: 100%;
     max-width: 1440px;

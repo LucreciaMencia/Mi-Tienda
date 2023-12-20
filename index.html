@@ -10,15 +10,40 @@
 </head>
 
 <body>
+
+    <section id="sidebar" style="display: none;">
+        <div class="sidebar-title">
+            <span class="mi-tienda">Mi Tienda</span>
+            <img onclick='cerrarMenu()' src="./public/cross.svg" alt="cerrar">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Muebles</a></li>
+                <li><a href="#">Calzados</a></li>
+                <li><a href="#">Colchones</a></li>
+                <li><a href="#">Herramientas</a></li>
+                <li><a href="#">Ofertas</a></li>
+            </ul>
+        </nav>
+    </section>
+
     <section class="flex-container">
 
         <div class="caja header">
+
             <div class="header-fila hf1">
-                <img class="caja-header menu-icon" src="./public/menu.svg" alt="menú hamburguesa">
+
+
+
+                <img onclick='abrirMenu()' class="caja-header menu-icon" src="./public/menu.svg" alt="menú hamburguesa">
+
+
                 <span class="caja-header mi-tienda titulo">Mi Tienda</span>
                 <div class="caja-header search-box">
                     <img src="./public/lupa.svg" alt="Lupa">
                 </div>
+
+
                 <div class="icon-group">
                     <div class="caja-header mi-cuenta">
                         <img class="usuario-icon" src="./public/usuario.svg" alt="Ícono de usuario">
@@ -29,10 +54,12 @@
             </div>
 
             <div class="header-fila hf2">
+
                 <span class="caja-header ch2 muebles">Mueble</span>
                 <span class="caja-header ch2 calzado">Calzado</span>
                 <span class="caja-header ch2 colchones">Colchones</span>
                 <span class="caja-header ch2 herramientas">Herramientas</span>
+
 
                 <div class="icon-group">
                     <span class="caja-header ofertas">Ofertas</span>
@@ -227,10 +254,10 @@
             </div>
         </div>
 
-
     </section>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="./script.js"></script>
+    <script src="./mobile-menu.js"></script>
 </body>
 
 </html>
