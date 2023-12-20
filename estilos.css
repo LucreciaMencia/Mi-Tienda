@@ -166,7 +166,7 @@ nav a {
     flex-grow: 1;
 }
 
-.search-box > input {
+.search-box>input {
     flex-grow: 1;
     border: none;
     outline: none;
@@ -294,7 +294,28 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+}
+
+.nombre-articulo {
+    padding: 0 16px;
+    color: #5E5E5E;
+    text-align: center;
+    font-family: Roboto Flex;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.precio-articulo {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.72);
+    text-align: center;
+    font-family: Roboto Flex;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .articulo {
@@ -305,7 +326,12 @@ nav a {
 .button-comprar {
     border: 1px solid #DC1E0F;
     color: #DC1E0F;
+    margin-top: 10px;
     margin-bottom: 22px;
+    width: 117px;
+    height: 33px;
+    flex-shrink: 0;
+    border-radius: 2em;
 }
 
 .populares>.titulo {
@@ -459,11 +485,17 @@ nav a {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 171.429% */
+    line-height: 24px;
+    /* 171.429% */
     text-transform: uppercase;
 }
 
+.first > span {
+    padding-top: 15px;
+}
+
 .second {
+    margin-bottom: 30px;
     color: #FFF;
     font-family: Roboto;
     font-size: 32px;
@@ -538,7 +570,8 @@ button {
     color: #FFF;
     font-size: 12px;
     font-weight: 400;
-    line-height: 14px; /* 116.667% */
+    line-height: 14px;
+    /* 116.667% */
     text-transform: uppercase;
     margin-top: 15px;
 }
@@ -557,7 +590,8 @@ button {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px; /* 133.333% */
+    line-height: 16px;
+    /* 133.333% */
     color: white;
     display: flex;
     flex-direction: row;
@@ -565,7 +599,7 @@ button {
     align-items: center;
 }
 
-.powered-by > * {
+.powered-by>* {
     margin-right: 12px;
 }
 
@@ -624,7 +658,7 @@ button {
     .mi-tienda {
         padding-left: 20px;
     }
-    
+
     .hf2 {
         display: none;
     }
@@ -822,19 +856,19 @@ button {
         align-items: center;
         padding-top: 40px;
     }
-    
+
     .copy-right {
         margin: 0;
         margin-top: 23px;
         margin-bottom: 27px;
     }
-    
+
     #fiscal-vtex {
         display: flex;
         align-items: center;
     }
 
-    #fiscal-vtex > img {
+    #fiscal-vtex>img {
         margin-right: 5px;
         margin-left: 5px;
     }
