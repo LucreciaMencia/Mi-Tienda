@@ -13,7 +13,7 @@
 
     <section id="sidebar" style="display: none;">
         <div class="sidebar-title">
-            <span class="mi-tienda">Mi Tienda</span>
+            <span class="mi-tienda-sidebar">Mi Tienda</span>
             <img onclick='cerrarMenu()' src="./public/cross.svg" alt="cerrar">
         </div>
         <nav>
@@ -22,7 +22,9 @@
                 <li><a href="#">Calzados</a></li>
                 <li><a href="#">Colchones</a></li>
                 <li><a href="#">Herramientas</a></li>
-                <li><a href="#">Ofertas</a></li>
+                <li><a class="ofertas" href="#">Ofertas
+                    <img class="fire" src="./public/fire.svg" alt="fuego">
+                </a></li>
             </ul>
         </nav>
     </section>
@@ -63,7 +65,7 @@
 
                 <div class="icon-group">
                     <span class="caja-header ofertas">Ofertas</span>
-                    <img class="caja-header icon" src="./public/fire.svg" alt="">
+                    <img class="caja-header fire" src="./public/fire.svg" alt="">
                 </div>
             </div>
         </div>
