@@ -742,14 +742,20 @@ button {
 
     .info {
         display: block;
-        padding: 0px 20px;
-        height: 261px;
+        padding: 0;
+        height: auto;
+    }
+
+    .info .flickity-page-dots {
+        bottom: 0px;
+        margin-bottom: 10px;
     }
 
     .cajita-info {
         width: 320px;
-        height: 248px;
-        padding: 40px 0;
+        height: 171px;
+        margin: 20px 0px 20px 20px;
+        padding: 0;
     }
 
     .footer {
